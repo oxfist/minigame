@@ -4,6 +4,7 @@
   "description": "## TODOs - [ ] Express - [ ] Docker container - [ ] Unit test - [ ] GitLab CI - [ ] Deploy to GCP",
   "main": "app.js",
   "scripts": {
+    "lint": "eslint .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,10 @@
   "homepage": "https://github.com/oxfist/minigame#readme",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2"
   }
 }

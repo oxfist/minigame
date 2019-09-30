@@ -2,7 +2,8 @@
 
 ## TODOs
 - [X] Express
+- [X] ESLint
 - [ ] Docker container
-- [ ] Unit test
 - [ ] GitLab CI
+- [ ] Unit test
 - [ ] Deploy to GCP
