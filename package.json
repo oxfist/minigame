@@ -1,0 +1,22 @@
+{
+  "name": "minigame",
+  "version": "1.0.0",
+  "description": "## TODOs - [ ] Express - [ ] Docker container - [ ] Unit test - [ ] GitLab CI - [ ] Deploy to GCP",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oxfist/minigame.git"
+  },
+  "author": "Andrés Quilodrán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oxfist/minigame/issues"
+  },
+  "homepage": "https://github.com/oxfist/minigame#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
