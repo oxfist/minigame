@@ -4,7 +4,8 @@
 - [X] Express
 - [X] ESLint
 - [X] Docker container
-- [ ] Nodemon
+- [X] Nodemon
 - [ ] GitLab CI
+- [ ] Production-like container
 - [ ] Unit test
 - [ ] Deploy to GCP
