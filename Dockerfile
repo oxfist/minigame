@@ -1,5 +1,7 @@
 FROM node:12-alpine
 
+EXPOSE 3000
+
 ENV APP minigame
 
 RUN adduser -S "${APP}"
@@ -11,5 +13,4 @@ COPY package.json package-lock.json ./
 RUN npm install
 COPY . .
 
-EXPOSE 3000
 CMD ["node", "app.js"]
